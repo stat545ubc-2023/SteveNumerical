@@ -1,0 +1,41 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# SteveNumerical
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of SteveNumerical is to provide some functions that can help people generate some specific statistics of a dataframe efficiently. The first function documented in this package is "outlier_counter", which will return the number of outliers in each column of a given dataframe.
+
+## Installation
+
+You can install the development version of SteveNumerical like so:
+
+``` r
+install_github("https://github.com/stat545ubc-2023/SteveNumerical.git", ref = "0.0.0.9000")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example, error=TRUE}
+library(SteveNumerical)
+## basic example code
+outlier_counter("ABC")
+outlier_counter(iris)
+```
+

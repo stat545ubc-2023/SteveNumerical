@@ -1,0 +1,12 @@
+Package: SteveNumerical
+Title: A package including some numerical methods that can be applied to dataframe
+Version: 0.0.0.9000
+Authors@R: person(given="Zefan", family="Liu", email = "liuzefan@i.pkuschool.edu.cn", role = c("aut", "cre"))
+Description: The goal of SteveNumerical is to provide some functions that can help people generate some specific statistics of a dataframe efficiently. The first function documented in this package is "outlier_counter", which will return the number of outliers in each column of a given dataframe.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
